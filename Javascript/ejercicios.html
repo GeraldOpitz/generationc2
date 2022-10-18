@@ -4,81 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript 1</title>
-    <script>
-        //comentario
-        /*más de una linea de comentario
-        */
+    <title>Formulario del usuario - G3</title>
+</head>
+<body>
+ <script>
+ var edad = parseInt(prompt("Ingresa tu edad", 0));
 
-
-       var nombre = "Gerald";
-       var apellido = "Opitz";
-       var edad = 21;
-       var direccion = "San Bernardo"
-
-       console.log("*****************")
-       console.log(nombre,"",apellido);
-       console.log("*****************")
-       console.log("Edad: ", edad)
-       console.log("*****************")
-       console.log("Dirección: ", direccion)
-       console.log("*****************")
-
-       /*Variables*/
-
-       //Espacio de memoria que puede cambiar en el tiempo
-       //Tipos de variables: String, number, boolean, null
-       //El tipo de variable, era definido por su contenido. ( typeof )
-       //El nombre de la variable DEEBE ser significativo
-
-       //no hacer
-       /*
-       var aRdRFTvY --> no, es muy peligroso
-       var la casa --> no agregar espacio
-    */
-    /*Hacer
-    var laCasa
-    var la_casa
-    var LaCasa
-    var LACASA --> CONSTANTES
-    
-    
-    */
-   // DPENEDERA DEL CONTEXTO
-    var numero_uno = 1;
-    var numUno = 1;
-    var numero1 = 1;
-    var numero_1 = 1;
-
-    var string_uno = "uno";
-    var unoString = "uno";
-    var string1 = "uno";
-    var palabra_uno = "uno";
-    var palabra_numero_1 = "uno";
-
-    var soloParaElCalculoDelIVA = 123.4;
-    var SOLO_PARA_EL_CALCULO_DEL_IVA = 19;
-
-    var num_1 = 24;
-    var num_2 = 35;
-    var num_3 = 11;
-
-    var numero = 2;
-    numero = numero + 3; //numero = 2 + 3; numero =5;
-
-    numero +=4; //numero = 5 + 4
-
-    console.log(numero)
-
-    numero-=5;
-    
-    console.log(numero)
-
-    console.log(--numero)
-
-    console.log(++numero)
-    
-    //comentario del commit
+ console.log("Hola esta es una página con fines extraños, así que debes ser mayor de edad ＼(＾▽＾)／ ");
+ 
+ if(edad >=18){
+ console.log("Acceso permitido");
+ var nombre = prompt("Ingresa tu nombre");
+ var apellido = prompt("Ingresa tu apellido");
+ var direccion = prompt("Ingresa tu dirección");
+ var telefono = parseInt(prompt("Ingresa tu telefono", 0));
+ var correo = prompt("Ingresa tu correo");
+ 
+ 
+ console.log("***☜(˚▽˚)☞***");
+console.log("Bienvenido", nombre, apellido);
+console.log("Tu edad es", edad);
+console.log("Tu dirección es", direccion);
+console.log("Tu teléfono es", telefono);
+console.log("Tu correo es", correo);
+console.log("***☜(˚▽˚)☞***");
+ 
+ } else {
+ console.log ("(╥︣﹏᷅╥) Acceso denegado (╥︣﹏᷅╥)"); 
+}
 
 console.log("    ⢀⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀              ")
 console.log( "   ⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀             ")
@@ -96,15 +49,19 @@ console.log( "   ⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 console.log( "   ⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀             " )
 console.log( "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠉                             ")
 console.log( "                                                       ")
-    </script>
-</head>
-<body>
+
+
+ 
+ 
+ 	       
+
+ </script>
 
 
 
+ 
+ 
+ 	       
 
-
+ </script>
     
-    
-</body>
-</html>
